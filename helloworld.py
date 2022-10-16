@@ -17,4 +17,4 @@ year = int(input('Digite o ano: '))
 
 print(get_date_from_day_number_of_year(day_number, year))
 
-# Fazendo testes
+print('amanha é dia', datetime.datetime.now().day + 1, 'de', datetime.datetime.now().month, 'de', datetime.datetime.now().year)
